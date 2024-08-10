@@ -1,3 +1,4 @@
 2024-06-04T17:09:39  build(parser): add --fail-on threshold handling
 2024-06-20T12:26:46  refactor(scan): simplify the walker
 2024-07-24T19:43:53  test(scoring): stream large files without buffering
+2024-08-10T14:00:00  style(core): respect .gitignore when walking
