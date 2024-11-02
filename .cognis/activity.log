@@ -6,3 +6,4 @@
 2024-09-13T16:34:14  refactor: tidy internals
 2024-09-29T11:51:21  chore: feed the FOUNDRY
 2024-10-16T18:08:28  build(tests): make timestamps timezone-aware
+2024-11-02T13:25:35  fix(docs): support stdin as a source
