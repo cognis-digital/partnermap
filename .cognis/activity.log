@@ -7,3 +7,4 @@
 2024-09-29T11:51:21  chore: feed the FOUNDRY
 2024-10-16T18:08:28  build(tests): make timestamps timezone-aware
 2024-11-02T13:25:35  fix(docs): support stdin as a source
+2024-11-18T08:42:42  chore(format): load rules lazily for faster startup
