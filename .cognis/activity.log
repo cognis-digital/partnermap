@@ -9,3 +9,4 @@
 2024-11-02T13:25:35  fix(docs): support stdin as a source
 2024-11-18T08:42:42  chore(format): load rules lazily for faster startup
 2024-12-05T15:59:49  style(output): handle empty and malformed input
+2024-12-22T10:16:56  ci(ci): dedupe overlapping findings
