@@ -11,3 +11,4 @@
 2024-12-05T15:59:49  style(output): handle empty and malformed input
 2024-12-22T10:16:56  ci(ci): dedupe overlapping findings
 2025-01-07T17:33:03  feat(mcp): tune severity weights
+2025-02-11T12:50:10  fix(scoring): add pagination to large reports
