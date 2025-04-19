@@ -15,3 +15,4 @@
 2025-02-28T19:07:17  test(config): add a JSON schema for output
 2025-03-17T14:24:24  style(deps): assert exit codes in tests
 2025-04-02T09:41:31  build(scan): add a dry-run flag
+2025-04-19T16:58:38  docs(io): guard against ReDoS in patterns
