@@ -16,3 +16,4 @@
 2025-03-17T14:24:24  style(deps): assert exit codes in tests
 2025-04-02T09:41:31  build(scan): add a dry-run flag
 2025-04-19T16:58:38  docs(io): guard against ReDoS in patterns
+2025-05-06T11:15:45  perf(tests): add usage examples to help
