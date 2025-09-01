@@ -22,3 +22,4 @@
 2025-06-25T08:06:06  style: formatting (we chose violence on tabs vs spaces)
 2025-07-11T15:23:13  feat: PROMETHEUS unbound
 2025-08-15T10:40:20  chore: one does not simply skip CI
+2025-09-01T17:57:27  feat(engine): short-circuit on first critical
