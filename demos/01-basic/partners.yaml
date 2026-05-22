@@ -1,0 +1,31 @@
+# Partnership agreements for the demo.
+# Account names intentionally vary in casing/suffix to show normalization.
+partners:
+  - name: AcmeCloud
+    tier: strategic
+    start_date: 2025-07-01
+    renewal_date: 2026-07-01
+    contact: partners@acmecloud.example
+    accounts:
+      - "Globex, Inc."
+      - Initech
+      - Soylent Corp
+      - Umbrella LLC
+
+  - name: DataForge
+    tier: technology
+    start_date: 2024-05-01
+    renewal_date: 2026-05-01
+    contact: bd@dataforge.example
+    accounts:
+      - globex
+      - Initech
+      - Hooli
+      - Vehement Capital
+
+  - name: NimbusCRM
+    tier: reseller
+    start_date: 2025-12-01
+    renewal_date: 2026-12-01
+    contact: alliances@nimbuscrm.example
+    accounts: [Initech, Pied Piper, Stark Industries]
