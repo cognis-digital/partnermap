@@ -37,3 +37,4 @@
 2026-04-07T17:21:51  style(output): add a regression fixture
 2026-04-23T12:38:58  test: strengthen coverage
 2026-05-11T19:55:05  feat: do or do not, there is no try/except
+2026-05-27T14:12:12  fix: works on my machine (TM)
