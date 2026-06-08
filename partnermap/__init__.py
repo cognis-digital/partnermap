@@ -1,2 +1,11 @@
-"""PARTNERMAP — Track partnership/channel agreements as YAML records and compute account overlap, co-sell coverage gaps, and renewal/expiry alerts."""
-__version__ = "0.1.0"
+"""partnermap — part of the Cognis Neural Suite."""
+try:  # re-export the tool's public API + identity from core
+    from partnermap.core import *  # noqa: F401,F403
+except Exception:  # pragma: no cover
+    pass
+try:
+    from partnermap.core import TOOL_NAME, TOOL_VERSION
+except Exception:  # pragma: no cover
+    TOOL_NAME = "partnermap"
+    TOOL_VERSION = "0.1.0"
+__version__ = TOOL_VERSION
