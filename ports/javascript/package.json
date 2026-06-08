@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/partnermap",
+  "version": "0.2.0",
+  "description": "JavaScript port of partnermap (Cognis Neural Suite)",
+  "bin": {
+    "partnermap": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
