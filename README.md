@@ -16,7 +16,7 @@
 </div>
 
 ```bash
-pip install cognis-partnermap
+pip install "git+https://github.com/cognis-digital/partnermap.git"
 partnermap scan .            # → prioritized findings in seconds
 ```
 
@@ -52,7 +52,7 @@ Account mapping without uploading your customer list to a third party — find p
 ## Quick start
 
 ```bash
-pip install cognis-partnermap
+pip install "git+https://github.com/cognis-digital/partnermap.git"
 partnermap --version
 partnermap scan .                       # scan current project
 partnermap scan . --format json         # machine-readable
