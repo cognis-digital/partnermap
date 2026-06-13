@@ -37,9 +37,9 @@ partnermap scan .            # → prioritized findings in seconds
    ```bash
    partnermap analyze partners/ --window-days 90 --today 2026-06-13
    ```
-4. **Read the output** as JSON for dashboards:
+4. **Read the output** as JSON for dashboards (report has `summary`, `overlaps`, and `renewal_alerts`):
    ```bash
-   partnermap analyze partners/ --format json | jq '.renewals'
+   partnermap analyze partners/ --format json | jq '.renewal_alerts'
    ```
 5. **Automate in CI** — fail when findings appear (`overlap | renewal | overdue | any`):
    ```bash
