@@ -20,6 +20,32 @@ pip install cognis-partnermap
 partnermap scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+`partnermap` tracks partnership agreements stored as YAML and computes account overlap, renewals, and obligations.
+
+1. **Install**:
+   ```bash
+   pip install -e .
+   partnermap --version
+   ```
+2. **Analyze** one or more YAML files/directories:
+   ```bash
+   partnermap analyze demos/01-basic
+   ```
+3. **Tune the lookahead window** for upcoming renewals:
+   ```bash
+   partnermap analyze partners/ --window-days 90 --today 2026-06-13
+   ```
+4. **Read the output** as JSON for dashboards:
+   ```bash
+   partnermap analyze partners/ --format json | jq '.renewals'
+   ```
+5. **Automate in CI** — fail when findings appear (`overlap | renewal | overdue | any`):
+   ```bash
+   partnermap analyze partners/ --fail-on overdue || exit 1
+   ```
+
 ## Contents
 
 - [Why partnermap?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
