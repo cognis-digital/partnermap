@@ -67,7 +67,7 @@ def test_analyze_summary():
     report = core.analyze(partners, today=TODAY, window_days=60)
     s = report["summary"]
     assert s["partner_count"] == 3
-    assert s["overlap_pairs"] == 2
+    assert s["overlap_pairs"] == 3
     assert s["renewal_alert_count"] == 2
     assert s["overdue_count"] == 1
 

@@ -16,9 +16,15 @@
 </div>
 
 ```bash
-pip install cognis-partnermap
+pip install "git+https://github.com/cognis-digital/partnermap.git"
 partnermap scan .            # → prioritized findings in seconds
 ```
+
+<!-- cognis:layman:start -->
+## What is this?
+
+partnermap is a command-line tool that helps businesses track their partner and reseller agreements in simple text files. It reads those files and automatically finds which customers appear in more than one partner's account list — so you can spot conflicts or co-sell opportunities without sharing raw customer names with anyone. It also watches renewal and expiry dates and warns you when a contract is coming due or has already lapsed. It is aimed at sales operations, partnerships, and business development teams who want a lightweight, self-hosted alternative to expensive account-mapping platforms.
+<!-- cognis:layman:end -->
 
 ## Contents
 
@@ -49,10 +55,56 @@ Account mapping without uploading your customer list to a third party — find p
 <div align="right"><a href="#top">↑ back to top</a></div>
 
 <a name="quick-start"></a>
+<!-- cognis:domains:start -->
+## Domains
+
+**Primary domain:** Revenue & Business  ·  **JTF MERIDIAN division:** FOUNDRY · MASON
+
+**Topics:** `cognis` `business` `saas` `revenue-ops`
+
+Part of the **Cognis Neural Suite** — 300+ source-available tools organized across 12 domains under the JTF MERIDIAN command structure. See the [suite on GitHub](https://github.com/cognis-digital) and [jtf-meridian](https://github.com/cognis-digital/jtf-meridian) for how the pieces fit together.
+<!-- cognis:domains:end -->
+
+<!-- cognis:install:start -->
+## Install
+
+`partnermap` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/partnermap/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/partnermap/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/partnermap.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/partnermap.git"  # uv
+pip install "git+https://github.com/cognis-digital/partnermap.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/partnermap.git
+cd partnermap && pip install .
+```
+
+Then run:
+```sh
+partnermap --help
+```
+<!-- cognis:install:end -->
+
 ## Quick start
 
 ```bash
-pip install cognis-partnermap
+pip install "git+https://github.com/cognis-digital/partnermap.git"
 partnermap --version
 partnermap scan .                       # scan current project
 partnermap scan . --format json         # machine-readable
